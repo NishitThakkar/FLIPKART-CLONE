@@ -1,11 +1,11 @@
+var express = require('express');
+var router = express.Router();
 const bodyParser = require('body-parser');
 // const { ObjectID } = require('bson');
 var objectId = require('mongodb').ObjectId;
 
-var express = require('express');
 const { MongoClient } = require('mongodb');
 const upload = require('../multerConfig');
-var router = express.Router();
 
 var client = new MongoClient('mongodb+srv://flipkart_users:flipkart_users@cluster0.2gi8t.mongodb.net/Flipkart-Database?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, })
 var connection;
