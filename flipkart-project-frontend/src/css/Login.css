@@ -1,0 +1,116 @@
+.lhome{
+  background-color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  height: 87.7vh;
+}
+.home {
+  height: 460px;
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  box-shadow: 1px 2px 8px 1px #a5a5a5;
+}
+.home2 {
+  height: 460px;
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  box-shadow: 1px 2px 8px 1px #a5a5a5;
+}
+.form_img {
+  width: 300px;
+  height: 100%;
+  background-color: rgb(40,116,240);
+  position: relative;
+}
+.form_img img {
+  height: 150px;
+  width: 250px;
+  /* margin-top: 150px; */
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+.form_img h3{
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 30px 100px 0 30px;
+  font-family: Roboto,Arial,sans-serif;
+  text-align: left;
+
+}
+.form_img p{
+  margin-top: 80px;
+  font-size: 19px;
+  margin: 30px 80px 0 30px;
+  line-height: 150%;
+  color: #dbdbdb;
+  text-align: left;
+  /* font-weight: 500; */
+  font-family: Roboto,Arial,sans-serif;
+}
+
+.form {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  
+}
+
+.formm input{
+  border: 0;
+  border-bottom: 1px solid;
+  width: 400px;
+  color: rgb(40,116,240);
+  font-family: Roboto,Arial,sans-serif;
+}
+.formm ::placeholder{
+  color: #616161;
+}
+.loginbtn{
+  background-color: #fb641b;
+  color: white;
+  border: 0;
+  padding: 12px 180px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 8px 1px #a5a5a5;
+
+}
+.loginbtn:hover,  .cr_ac_btn2:hover{
+  background-color: #ff712a;
+}
+
+.cr_ac_btn{
+  background-color: white;
+  color: blue;
+  border: 0;
+  padding: 15px 138px;
+  margin-bottom: 35px;
+  box-shadow: 1px 2px 8px 1px #888888;
+}
+.cr_ac_btn:hover{
+background-color: rgb(245, 245, 245);
+}
+.cr_ac_btn2{
+  background-color: #fb641b;
+  color: white;
+  border: 0;
+  padding: 15px 138px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 8px 1px #888888;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.abcde{
+  color: #2874F0;
+}
+.abcde:hover{
+  /* background-color:#2874F0 ; */
+  color: orangered;
+}
+/* style={{color:'#2874F0',marginTop:10}} */

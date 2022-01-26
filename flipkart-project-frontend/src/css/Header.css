@@ -1,0 +1,234 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color:#2874f0;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    position:sticky;
+    top: 0; 
+    z-index: 500;
+}
+.logo{
+    position: relative;
+    margin-bottom: 10px;
+}
+.logo_plus img{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 3px;
+    left: 65px;
+}
+
+.lp{
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 15px;
+
+}
+.lp:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.lspan1{
+    color: #ffffff;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 2px;
+    /* width: 1px; */
+}
+.lspan2{
+    color: #F2DF0E;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 2px;
+    /* width: 1px; */
+
+}
+.logo_img{
+    height: 25px;
+    width: 95px
+}
+.sp{
+    width: 40%;
+    position:relative;
+}
+
+.fa-search{
+    position:absolute;
+    right:10px;
+    top:10px;
+    color:#2874f0
+    /* font-size:50px */
+}
+.sp input{
+        padding: 0 16px;
+        border-radius: 2px 0 0 2px;
+        border: 0;
+        outline: 0 none;
+        font-size: 14px;
+        height: 36px;
+        width: 100%;
+    }
+
+.login ul {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 5px 30px;
+    background-color: white;
+    color: blue;
+    margin-top: 15px;
+    text-decoration: none;  
+    list-style: none;
+}
+.login ul li{
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+.login{
+    list-style: none;
+    text-decoration: none;
+}
+.login h5{
+    float:right;
+    margin:1px 0 0 6px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.login_btn{
+    color: rgba(40,116,240);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+.login_btn2{
+    color:rgba(40,116,240);
+    background-color:whitesmoke ;
+    padding: 3px 30px;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+  .morebtn{
+    color: white;
+    margin-top: 27px;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    letter-spacing: .5px;
+
+    /* user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 108px;
+    display: block; */
+}
+
+.morebtn i{
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.more {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+}
+.more_content i{
+    margin-right: 20px;
+    font-size: 14px;
+    color:#2874f0 ;
+    z-index: 20;
+
+}
+.more_content .fa-shipping-fast{
+    margin-right: 15px;
+    font-size: 14px;
+    color:#2874f0 ;
+}
+  
+  .more_content {
+    display: none;
+    position: absolute;
+    top:  75px;
+    /* bottom: 0; */
+    left: -80px;
+    background-color: white;
+    color: black;
+    min-width: 250px;
+    z-index: 50;
+    text-align: left;
+  }
+  .more_content Link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* .more_content Link:hover {background-color:black;} */
+
+.more:hover .more_content {
+    display: block;
+    box-shadow: 1px 2px 8px 1px #d4d4d4;
+    z-index: 10;
+    position: absolute;
+
+}
+
+.fa-cart-plus{
+    font-size:20px;
+    margin-top:3px
+}
+
+
+.spnn{
+    font-size:25px;
+    color:white
+}
+
+.ci{
+    position: relative;
+}
+
+.abc{
+    right: 65px;
+    top: 13px;
+    position: absolute;
+}
+
+.abcd{
+    color: #2874f0;
+    background-color: whitesmoke;
+    padding: 1px 2px;
+    border-radius:100% ;
+}

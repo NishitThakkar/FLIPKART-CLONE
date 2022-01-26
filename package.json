@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jquery": "^3.6.0",
+    "mongodb": "^4.0.0",
+    "multer": "^1.4.3",
+    "node-mailer": "^0.1.1",
+    "nodemon": "^2.0.12"
+  },
+  "name": "flipkart-project-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix flipkart-project-frontend && npm run build --prefix flipkart-project-frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

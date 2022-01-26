@@ -1,0 +1,18 @@
+.nav{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.nav img{
+    height: 64px;
+    width: 64px;
+    margin-top: 5px;
+}
+
+.active{
+    color: #2874f0 !important;
+}
+
+
+

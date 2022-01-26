@@ -1,0 +1,81 @@
+
+.realme_first{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.realme_info{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.realme_img{
+    border-right: 2px solid;
+    height: 100%;
+    width: 20%;
+}
+
+.realme_img img{
+    height: 100%;
+    width: 40%;
+}
+
+
+.realme_info p{
+    font-size: 13px;
+}
+
+.mob_price{
+    width: 40%;
+    /* margin: 0 auto; */
+     margin-top: 5px;
+     border-left: 6px solid red;
+   background-color: lightgrey;
+}
+.mob_price2{
+    width: 60%;
+    margin: 0 auto;
+     margin-top: 15px;
+     border-left: 6px solid red;
+   background-color: lightgrey;
+}
+
+.mob_h3{
+    width: 50%;
+    margin: 5px auto 25px;
+    padding: 12px;
+    border-bottom: 2px solid rgba(40,116,240) ;
+    font-weight: 500;
+}
+
+.mob{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mob_h1{
+    border: 1px solid;
+    padding: 15px;
+}
+
+.mobi img{
+    height: 100px;
+    width: 100px;
+}
+.mobi p{
+    margin-top:6px;
+    font-size: 16px;
+    /* font-weight: 500; */
+    text-align:center;
+    
+}
+
+.mobi1 img{
+    border: 1px solid;
+    margin-top: 2.5px;
+    border-radius: 10px;
+    border-color: rgba(171,171,171,0.8);
+    border-width: 2.5px;
+}

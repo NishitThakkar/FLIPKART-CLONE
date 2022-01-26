@@ -1,0 +1,38 @@
+
+.sell_info{
+    /* margin-top: 25px; */
+    height: 100%;
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid rgba(40,116,240);
+    border-radius: 5px;
+    /* padding: 20px ; */
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.sell_info input{
+    width: 400px;
+    border: 0;
+    border-bottom: 1px solid rgba(40,116,240);
+}
+
+.sell_info h5{
+    border: 1px solid ;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.tdi{
+    height: 50px;
+    width: 50px;
+}
+.text1{
+    color: whitesmoke;
+}
+.text2{
+    color: rgb(131, 131, 131);
+}
+
+

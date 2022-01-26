@@ -1,0 +1,79 @@
+.footer{
+    background-color: #172237;
+    color: white;
+    height: 350px;
+    font-size: 13px;
+}
+.f_nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border-bottom: 1px solid rgb(69,77,94);
+    line-height: 1.8;
+
+}
+.mail{
+    border-left: 1px solid rgb(69,77,94);
+    padding-left: 25px;
+    /* border-right-style: dashed; */
+}
+.address{
+    padding-top: 40px;
+}
+.f_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 25px 30px 55px;
+    text-align: start;
+    border-bottom: 1px solid rgb(69,77,94);
+}
+.footer_end{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: #172237;
+
+}
+
+.footer_end i{
+    margin-right: 8px;
+    font-size: 15px;
+    color: rgb(255, 208, 0);
+    padding: 10px;
+}
+.footer_end p{
+    margin-left: 15px;
+}
+.fgh, .fghj{
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.f_p_i img{
+    height: 20px;
+    width: 400px;
+    margin-right: 8px;
+
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }    
+
+
+.f_info h4{
+    color: gray;
+}
+/* .mail{
+    margin-right: 25px;
+} */
+.f_link{
+    margin-top: 50px;
+    list-style: none;
+
+}
+
+.f_link h4{
+    color:gray;
+}

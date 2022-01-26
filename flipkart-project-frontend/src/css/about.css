@@ -1,0 +1,11 @@
+.about_main{
+    height: 2400px;
+    /* width: 98.7vw; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAjG7_-NyuGB_544eo8vDMNdeyFBWtRdV5pg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about_image{
+    margin: 50px auto; 
+}

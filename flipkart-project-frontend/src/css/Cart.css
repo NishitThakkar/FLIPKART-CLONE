@@ -1,0 +1,118 @@
+.cart_main{
+    background-color: rgb(243, 243, 243);
+    height: 88.8vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.cart_main2{
+    /* background-color: rgb(243, 243, 243); */
+    height: 100vmin ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.cart{
+    height: 400px;
+    width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.cart img{
+    height: 200px;
+    width: 200px;
+}
+
+.loginbtn11{
+    border: 0;
+    background-color: rgb(40,116,240);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+
+}
+.loginbtn11:hover{
+    color: rgb(40,116,240);
+    background-color: white;
+    border: 2px solid rgb(40,116,240);
+    transition: all 0.3s ease 0s;
+    font-weight: 600 !important;
+	letter-spacing: 2px;
+}
+
+/* .con{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+} */
+.cart_row{
+    border-bottom: 1px solid rgb(185, 185, 185);
+    /* margin-top: 120px; */
+    padding: 15px 0;    
+}
+.cart_row img{
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0; */
+    margin: auto;
+    opacity: 1;
+    max-width: 50%;
+    max-height: 50%;
+}
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ss button{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    margin:0 10px;
+    background-color: white;
+}
+.ss button:hover{
+    background-color:rgb(40,116,240) ;
+    border: 0;
+    color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+.ss p{
+    display: inline-block;
+    padding: 3px 6px;
+    height: 100%;
+    width: 46px;
+    height: 28px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+    margin: 0 5px;
+}
+.ss h6{
+    color: rgb(40, 116, 240) ;
+    margin-top: 5px;
+}
+
+.cart_b_li{
+    color: rgb(82, 82, 82);
+}

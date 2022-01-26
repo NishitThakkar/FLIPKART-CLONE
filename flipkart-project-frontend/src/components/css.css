@@ -1,0 +1,45 @@
+.main_why_invest{
+    height: 450px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.wrapper_why_invest{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
+
+.why_invest_h2 h2{
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.why_invest_data_first_h4{
+    height: 55px;
+    /* width: 100%; */
+    background-color: rgb(3, 37, 3);
+    color: white;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.why_invest_data_first{
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0;
+}
+.why_invest_data_p{
+    padding: 15px 10px;
+}
+
+
+.best_fb_table{
+    border-bottom: 2px solid rgb(74, 74, 221);
+    /* border */
+}

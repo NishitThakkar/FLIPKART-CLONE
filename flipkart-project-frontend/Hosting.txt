@@ -1,0 +1,46 @@
+AWS:-
+Go to Services click on E2c 
+After launch the instances 
+Select the Windows server 
+Do next next till the Launch the Review Instance launch page click the launch button 
+after choose the select the Create a new key pair and enter the name of project in key pair name, Download the key pair after that launch the instance
+
+After that go to code 
+Run the cmd "npm run build" than we copy build folder in backend folder 
+app.use(express.static(path.join(_dirname,'build')));
+app.use(express.static(path.join(_dirname,"uploads")));
+
+app.get('/',(req,res)=>{
+res.sendFile('index.html');
+})
+
+app.listen(80,()=>{
+ console.log("server is started on port 80");
+})
+
+After go Config.js file 
+change the port no 3001 to 80
+
+we dont run npm start only run backend part the project run auto run 
+
+Now check in aws E2c> Instance > instance summary > check the Public Ipv4 address and copy that IP paste localhost to Ip address
+after that we go Instances click right click on Instance id select the Connect 
+Go to the RDP client and Download remote desktop file
+they want ask for the password we go minmize the password popup and click on the get password browse the file which download previously then select the Decrypt Password copy that password and enter that password in popup after that click on yes procced futher and open AWS system computer 
+
+First need to install the Google chorme we can do drag from our system then we drag the code (backend file ) Download the node.js form Google and install it.
+Open cmd where code is situdated 
+than go control pannel in AWS sytsem and click on system and security after that click on windows defender firewall you can see left side of menu click on turn windows defender get turn off the window defender (private and public)
+
+after go localsystem go to the aws website click on services > E2c check the left menu bar check the security group click on it 
+Create the security Group on right top bar 
+enter the name of project 
+enter the description 
+GO to down you will find Inbound rules 
+Type > All traffic
+Source> Anywhere IPv4 
+
+Click on create the security Group after go instance group click the right click on Instance id check the security > Change the security Groups
+search the project with name and add the project than save it 
+
+

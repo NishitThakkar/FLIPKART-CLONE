@@ -1,0 +1,25 @@
+.Sell_product_main{
+    height: 80vh;
+}
+
+.Sell_product_cat{
+    height: 70%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 8px 1px #888888;
+    margin-top: 60px;
+
+}
+
+.Sell_product_cat img{
+    height: 140px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.Sell_product_home img:hover{
+    height: 150px;
+}

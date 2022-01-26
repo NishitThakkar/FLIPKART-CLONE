@@ -1,0 +1,97 @@
+.carousel-inner img {
+    height: 280px;
+    width: 100%;
+    z-index: 1;
+    margin: 10px 0;
+    padding: 0px;
+}
+
+.dod{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    box-shadow: 1px 2px 8px 2px #a5a5a5;
+}
+.dod1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    box-shadow: 1px 2px 8px 2px #a5a5a5;
+    margin-top: 50px;
+}
+.dod1 h4{
+    margin-top: 15px;
+}
+.bd-example{
+    border: 2px solid;
+    z-index: 1;
+    position: relative;
+
+}
+.abcdefgh img{
+    border: 2px solid;
+    z-index: 2;
+    
+}
+.dod img {
+    height: 125px;
+    width: 125px;
+}
+.dod h4{
+    font-size: 15px;
+}
+.dod_4{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+.dod_1 p{
+    margin-top: 10px;
+}
+.dod_p{
+    font-size: 15px;
+    color:grey ;
+}
+
+.top_deals{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 25px;
+}
+
+.ll{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ll h4{
+    font-size: 15px;
+
+}
+
+.ll p{
+    font-size: 15px;
+    color:green ;
+}
+
+.ll span{
+    font-size: 15px;
+    color:grey ;
+}
+
+.home_tc_p{
+    text-align: left;
+    line-height: 16px;
+    font-size: 11px;
+    margin: 30px 15px;
+    padding: 25px 25px 15px;
+    color: #878787;
+    font-family: 'Roboto',Arial,sans-serif;
+    letter-spacing: 0;
+    box-shadow: 1px 2px 8px 1px #a5a5a5;
+
+        
+}

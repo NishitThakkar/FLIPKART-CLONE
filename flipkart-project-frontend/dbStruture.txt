@@ -1,0 +1,39 @@
+user 
+    _id
+    name
+    email 
+    mobile 
+    shipping_address
+    zipcode
+    business_name
+    business_logo_path
+    business_address
+    roll
+
+------------------------------------------------------------------------
+product
+    product_id
+    product_title
+    category
+    p_price
+    p_unit
+    images
+    qty
+    discount
+    description
+    ram_size:"" 
+    ...   
+  
+  ------------------------------------------------------------------------
+
+
+orders 
+   order_id
+   customer_id
+   order_date
+   customer_email
+   customer_name
+   shipping_address
+   products: [ {p_id,  vendor_id,business_name, p_title, price, discount, qty}, ... ]
+   status
+
