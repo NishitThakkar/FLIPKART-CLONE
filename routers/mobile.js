@@ -95,22 +95,6 @@ router.get('/delete_product/mobile', bodyParser.json(), function (req, res) {
     })
 })
 
-// var { graphql, buildSchema } = require('graphql');
-
-// var schema = buildSchema(`
-//   type Query {
-//     hello: String
-//   }
-// `);
-
-// var root = { hello: () => 'Hello world!' };
-
-// graphql(schema, '{ hello }', root).then((response) => {
-//   console.log(response);
-// })
-
-
-
 router.get('/mob_byid', function (req, res) {
 
     var studentcollection = connection.db('Flipkart-Database').collection('products');

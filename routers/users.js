@@ -86,7 +86,7 @@ router.post('/create_seller', bodyParser.json(), function (req, res) {
 
     users.insert(req.body, function (err, result) {
         if (!err) {
-            res.send("Congratulation !! you are now a vendor..")
+            res.send("Congratulation!! you are now a vendor..")
         } else {
             res.send({ err })
         }
